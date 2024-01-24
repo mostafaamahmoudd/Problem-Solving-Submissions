@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include<bits/stdc++.h>
+#include <cmath>
+ 
+using namespace std;
+ 
+void fast () {
+    cin.sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+}
+ 
+int32_t main() {
+    fast();
+ 
+    int x; long long y; char c; float a; double b;
+    cin >> x >> y >> c >> a >> b;
+ 
+    cout << x << "\n" << y << "\n" << c << "\n" << a << "\n" << b;
+ 
+    return 0;
+}
